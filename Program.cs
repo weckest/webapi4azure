@@ -23,6 +23,8 @@ builder.Services.AddCors(o => o.AddPolicy("Policy", builder => {
 
 var app = builder.Build();
 
+app.UseHttpsRedirection();
+
 app.UseCors("Policy");
 
 // Configure the HTTP request pipeline.

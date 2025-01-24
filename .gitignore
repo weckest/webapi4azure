@@ -7,6 +7,8 @@ school.db
 # dotenv files
 .env
 
+/distrib
+
 # User-specific files
 *.rsuser
 *.suo
